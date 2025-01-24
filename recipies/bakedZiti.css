@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #fefbea;
+}
+
+.header {
+    background-color: #79a3b1;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;  
+
+    
+}
+
+.image-section {
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+
+}
+
+
+
+.description, .ingredients, .instructions  {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px; 
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    font-size: 20px;
+}
+
+.ingredients {
+    margin-top: 20px;
+}
+
+.ingredients-title, .instructions-title {
+    color: #a379b1;
+    font-size: 30px;
+}
+
+.instructions {
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+
+.footer {
+    background-color: #79a3b1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
